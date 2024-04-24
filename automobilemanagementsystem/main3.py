@@ -245,9 +245,9 @@ def on_key(event):
 # Connect to MySQL
 mydb = mysql.connector.connect(
     host="localhost",
-    user="root",
-    password="joakim",
-    database="automobile"
+    user="Your_username",
+    password="Your_password",
+    database="Your_database"
 )
 
 # Create a cursor object
